@@ -7,8 +7,6 @@
     android:gravity="center"
     android:background="#c6b2ed">
 
-
-    <?xml version="1.0" encoding="utf-8"?>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,14 +23,14 @@
             android:layout_marginBottom="32dp" />
 
         <EditText
-            android:id="@+id/usernameEditText"
+            android:id="@+id/etName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuario"
+            android:hint="Nombre completo"
             android:layout_marginBottom="16dp" />
 
         <EditText
-            android:id="@+id/emailEditText"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
@@ -40,35 +38,25 @@
             android:layout_marginBottom="16dp" />
 
         <EditText
-            android:id="@+id/passwordEditText"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Contraseña"
             android:inputType="textPassword"
             android:layout_marginBottom="16dp" />
 
-        <EditText
-            android:id="@+id/confirmPasswordEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Confirmar Contraseña"
-            android:inputType="textPassword"
-            android:layout_marginBottom="24dp" />
-
         <Button
-            android:id="@+id/registerButton"
+            android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrarse"
             android:layout_marginBottom="16dp" />
 
-        <TextView
-            android:id="@+id/loginTextView"
-            android:layout_width="wrap_content"
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="¿Ya tienes cuenta? Inicia sesión"
-            android:textColor="#2196F3"
-            android:clickable="true" />
+            android:text="Volver al Login" />
 
     </LinearLayout>
 </ScrollView>
